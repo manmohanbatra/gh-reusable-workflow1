@@ -1,0 +1,17 @@
+name: Reusable workflow 1
+
+on:
+  workflow_call:
+
+jobs:
+
+  ru1_job1:
+    runs_on: self-hosted
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Write something to Log
+        run: |
+                echo "I am reusable workflow one"
+
