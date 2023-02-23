@@ -1,0 +1,14 @@
+name: My starter Workflow 2
+
+on:
+  workflow_dispatch:
+
+
+
+jobs:
+  call-workflow-using-release:
+    uses: manmohanbatra/gh-reusable-workflow-2/.github/workflows/reusuable-workflow-2.yml@v1
+  call-workflow-using-branch:
+    uses: manmohanbatra/gh-reusable-workflow-2/.github/workflows/reusuable-workflow-2.yml@main
+  call-workflow-using-sha:
+    uses: manmohanbatra/gh-reusable-workflow-2/.github/workflows/reusuable-workflow-2.yml@main
