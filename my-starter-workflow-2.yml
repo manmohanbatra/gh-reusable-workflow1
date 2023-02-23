@@ -7,8 +7,8 @@ on:
 
 jobs:
   call-workflow-using-release:
-    uses: manmohanbatra/gh-reusable-workflow-2/.github/workflows/reusable-workflow-2.yml@v1
+    uses: manmohanbatra/gh-reusable-workflow2/.github/workflows/reusable-workflow-2.yml@v1
   call-workflow-using-branch:
-    uses: manmohanbatra/gh-reusable-workflow-2/.github/workflows/reusable-workflow-2.yml@main
+    uses: manmohanbatra/gh-reusable-workflow2/.github/workflows/reusable-workflow-2.yml@main
   call-workflow-using-sha:
-    uses: manmohanbatra/gh-reusable-workflow-2/.github/workflows/reusable-workflow-2.yml@main
+    uses: manmohanbatra/gh-reusable-workflow2/.github/workflows/reusable-workflow-2.yml@main
